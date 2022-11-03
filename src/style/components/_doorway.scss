@@ -22,7 +22,6 @@
         font-weight: bold;
         height: 4em;
         width: 4em;
-        background-image: url("~/src/assets/images/sticker.svg");
         user-select: none;
         &:hover {
             animation: beat-sticker 1s infinite alternate ease-in-out;
