@@ -1,0 +1,40 @@
+.companies {
+
+    h2 {
+        font-size: 1em;
+        color: #E1E1E1;
+    }
+
+
+    .icon {
+        background-color: #F8F8F8;
+        border-radius: 1em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        filter: grayscale(100%);
+        width: 100%;
+        transition: all 200ms;
+        aspect-ratio: 1 / 1;
+
+        img {
+            display: block;
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+
+        h2 {
+            color: $primary-color;
+            font-size: 0.9rem;
+        }
+
+        &:hover {
+            filter: grayscale(0%);
+        }
+
+        .plus-icon {
+            max-width: 200px;
+        }
+    }
+}
